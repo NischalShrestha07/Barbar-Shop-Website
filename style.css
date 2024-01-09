@@ -132,31 +132,74 @@ nav ul li a {
 }
 
 #container {
-    height: 100vh;
+    height: 100%;
+    justify-content: center;
     display: flex;
+    align-items: center;
 }
 
-.sub {
-    display: flex;
-}
 
 .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px 100px;
-    background: red;
+    margin: 15px;
+    /* background: red; */
     padding: 30px;
     font-size: 20px;
     font-family: 'Kaushan Script', cursive;
 }
 
-.mainBox {
-    padding: 30px;
+
+.details {
+    justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px 100px;
+    /* text-align: center; */
+
+}
+
+.barbar-img {
+    height: 20px;
+    margin: 0;
+
+    top: 0;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    margin: 20px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.details h1 {
+    font-size: 40px;
+    margin: 15px;
+    color: skyblue;
+}
+
+.det1,
+.det2,
+.det3 {
+    margin: 40px;
+    padding: 20px;
+}
+
+.det1 span {
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background: rgb(202, 198, 198);
+    border: 0.5px solid black;
+    padding: 10px;
+    border-radius: 12px;
 }
