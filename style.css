@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #833b85), url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text {
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 130px;
+
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+
+}
