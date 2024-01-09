@@ -66,14 +66,54 @@
     left: 0;
     background: white;
     z-index: -1;
-    transition: 0.9s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .banner-btn a:hover span {
     width: 100%;
-    /* background: transparent; */
 }
 
 .banner-btn a:hover {
     color: black;
+}
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: skyblue;
+    z-index: 2;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menuBtn {
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuBtn img {
+    width: 20px;
+    margin-top: 15px;
+
 }
